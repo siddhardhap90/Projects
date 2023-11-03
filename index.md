@@ -19,4 +19,17 @@ The first question I am tackling is the prediction of loan defaults. The steps I
 - **Evaluation**: Each model’s performance will be rigorously evaluated using appropriate metrics.
 - **Insights & Recommendations**: Finally, I will extract insights and make recommendations based on the model outcomes.
 
-This project is not only a platform for honing my skills but also an opportunity to contribute to the broader community by sharing detailed insights and methodologies employed throughout my analysis.
+### This work is being done on jupyter notebooks on the google colab environment. 
+
+I begin by loading the necessary python libraries
+
+```python
+# Importing necessary libraries
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+
+
+
