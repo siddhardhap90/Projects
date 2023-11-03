@@ -19,18 +19,33 @@ The first question I am tackling is the prediction of loan defaults. The steps I
 - **Evaluation**: Each model’s performance will be rigorously evaluated using appropriate metrics.
 - **Insights & Recommendations**: Finally, I will extract insights and make recommendations based on the model outcomes.
 
-### This work is being done on jupyter notebooks on the google colab environment. 
+ This work is being done on jupyter notebooks on the google colab environment. 
 
-I begin by loading the necessary python libraries
+### Loading the necessary python libraries
 
 ```python
-# Importing necessary libraries
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 ```
+### Loading dataset into a dataframe and understanding the dataset
 
+```python
+dataset = '/content/drive/MyDrive/data practice/defaultcredit.xls'
+df = pd.read_excel(datapath,skiprows=[0])
+df.head()
+```
+
+|   ID   | LIMIT_BAL |  SEX  | EDUCATION | default payment next month |
+| ------ | --------- | ----- | --------- | -------------------------- |
+|   1    |   20000   |   2   |     2     |             1              |
+|   2    |  120000   |   2   |     2     |             1              |
+|   3    |   90000   |   2   |     2     |             0              |
+|   4    |   50000   |   2   |     2     |             0              |
+|   5    |   50000   |   1   |     2     |             0              |
+
+A preview of the dataset, which is only a subset of the rows and columns are shown here. The full dataset has 30k rows and 25 columns. For every customer ID, we have some features like account balance, sex and education. We also have information on whether they have defaulted or not, given by a 1 or 0. 
 
 
 
