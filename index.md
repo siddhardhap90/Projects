@@ -1,3 +1,9 @@
+<style>
+  body {
+    background-color: #e6f7ff; /* Light blue color code */
+  }
+</style>
+
 # Banking Data Analytics Project
 
 As a demonstration of my data analysis proficiency, I have embarked on a banking data analytics project. This endeavor serves to practice and exhibit my skills in data science, particularly in the context of financial risk assessment and optimization. Below are the key questions that will guide my research and analysis:
